@@ -1,5 +1,21 @@
+:root {
+    /*Change this to the background url you want.*/
+    --background-url: url("https://i.imgur.com/H8z7fQK.png");
+
+/*Uncomment the following to use large icons (Remove the line of text before .chat and after })*/
+/*LARGEICONSSTART
+.chat .avatar-large {
+    height: 64px !important;
+    width: 64px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+ENDLARGEICONS*/
+
+}
+
 .layer-kosS71 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)), url('https://i.imgur.com/H8z7fQK.png') !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)), var(--background-url) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -224,7 +240,8 @@ textarea,
     left: 215px !important;
     height: 25px !important;
     width: 25px !important;
-}*/
+}
+*/
 
 /* CurrentUser Bar */
 
