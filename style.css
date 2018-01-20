@@ -1,0 +1,297 @@
+.layer-kosS71 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)), url('https://i.imgur.com/H8z7fQK.png') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/*Transparency*/
+#voice-connection,
+#friends,
+#rtc-connection,
+.friends-header,
+.friends-table,
+.guilds-wrapper,
+.guild-header header,
+.channels-wrap,
+.private-channels .search-bar,
+.private-channels,
+.guild-channels,
+.account,
+.friend-table-add-header,
+.chat,
+.content,
+.layer,
+.title-wrap:not(.search-bar),
+.messages-wrapper,
+.messages .divider span,
+.messages .divider:before,
+.divider-red span,
+.content,
+.message-group-blocked,
+.is-local-bot-message,
+.channel-members-loading,
+.channel-members-loading .heading,
+.channel-members-loading .member,
+textarea,
+.typing {
+    background: transparent !important;
+}
+
+.theme-dark .channel-members {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.theme-dark .chat form {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.theme-dark .typing-3eiiL_{
+    background-color: transparent;
+}
+
+.theme-dark .message-group h2 .timestamp {
+    color: white;
+}
+
+.container-RYiLUQ {
+    background-color: transparent;
+}
+
+.wrapper-2ldvyE {
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+.wrapper-2ldvyE:hover {
+    background-color: rgba(0, 0, 0, 0.50)
+}
+
+.scroller-wrap .scroller {
+    background-color: rgba(0, 0, 0, 0.19);
+}
+
+/* Messages */
+
+.contentHoveredText-2HYGIY {
+    background-color: rgba(0, 0, 0, 0.35)
+}
+
+.theme-dark .message-group .embed{
+    background-color: rgba(0, 0, 0, 0.35)
+}
+
+.message-group .comment .markup code.inline{
+    background: black !important;
+}
+
+.message-group .image {
+    border: 5px solid black;
+}
+
+/* Remove Unread Messages */
+
+.unreadBottom-2LxhSR {
+    display: none;
+}
+
+.unreadTop-25fmEL {
+    display: none;
+}
+
+.theme-dark .message-group .comment .edited {
+    color: #fff
+}
+
+.theme-dark .message-group h2 span, .theme-dark .message-group .comment .markup{
+    color: white;
+}
+
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(250, 166, 26, .30);
+}
+
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
+    border-radius: 25%;
+}
+
+.avatar-large:hover, .avatar-profile:hover, .avatar-small:hover, .avatar-xlarge:hover, .avatar-xsmall:hover, .avatar-xxlarge:hover{
+    border-radius: 15%;
+}
+
+.emoji-picker .scroller {
+    background-color: white;
+}
+
+/* Profile Popout
+
+.userPopout-4pfA0d .header-3mZJcV {
+    border-bottom:rgba(255,255,255,0.42) 2.7px solid!important;
+    background:none!important;
+    height: 256px !important;
+    display: inline-block !important;
+}
+
+.popout-UKvsJt {
+    visibility: visible !important;
+    z-index: -1 !important;
+    border-radius: 0px !important;
+    height: 256px !important;
+    width: 256px !important;
+    margin-left: -5%;
+    border: none !important;
+    -webkit-filter: brightness(80%) !important;
+    background-size: contain;
+    position: absolute;
+    background-position: center top;
+}
+
+.header-3mZJcV .avatarWrapper-2Gfmp1 {
+    top: 2px !important;
+    height: 100px !important;
+    width: 245px !important;
+    z-index: 0 !important;
+}
+
+.userPopout-4pfA0d .body-3rkFrF {
+    z-index: 1 !important;
+}
+
+.avatarWrapper-2Gfmp1 .avatarHint-2i5XWK {
+    top: -3px !important;
+    left: -5px !important;
+    height: 241px !important;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0px !important;
+    margin-left: -5%;
+    vertical-align: bottom !important;
+    align-items: flex-end !important;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.header-3mZJcV .headerText-3tKBWq {
+    position: absolute;
+    z-index: 0;
+    display: block;
+    background: rgba(50, 50, 50, 0.8);
+    width: 85% !important;
+    padding: 5%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    left: 6px;
+    margin-top: 2%;
+}
+
+.header-3mZJcV .headerText-3tKBWq * {
+    vertical-align: bottom !important;
+    bottom: 5px !important;
+}
+
+.header-3mZJcV .headerText-3tKBWq:hover {
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    cursor: default;
+}
+
+.header-3mZJcV .headerText-3tKBWq:hover *{
+    color: rgba(0, 0, 0, 0);
+    cursor: default;
+    background: rgba(0, 0, 0, 0);
+}
+
+.header-3mZJcV .headerText-3tKBWq:active {
+    background: rgba(50, 50, 50, 0.8);
+}
+
+.header-3mZJcV .headerText-3tKBWq:active * {
+    color: whitesmoke;
+}
+
+.header-3mZJcV .headerText-3tKBWq:active .headerBotTag-1I8GCn {
+    background: white;
+    color: #7289da;
+}
+
+.header-3mZJcV .headerBotTag-1I8GCn:active {
+    background: white;
+    color: #7289da;
+}
+
+.popout-UKvsJt .avatarStatus-1g8f0K{
+    position: relative !important;
+    z-index: 10 !important;
+    top: 225px !important;
+    left: 215px !important;
+    height: 25px !important;
+    width: 25px !important;
+}*/
+
+/* CurrentUser Bar */
+
+.button-1aU9q1 {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Scollbar */
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 10px;
+ }
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    width: 6px;
+    background-color: rgb(57, 57, 57) !important;
+ }
+
+ .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.65) !important;
+ }
+
+ /* DM Channels */
+.private-channels .private:hover {
+    opacity: 0.8 !important;
+ }
+
+.private-channels .private:hover .avatar-small{
+    opacity: 1 !important;
+}
+
+/* Test Fix */
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .theme-dark .chat form, .theme-dark .headerBar-cxbhPD {
+    background-color: transparent;
+}
+
+css.theme-dark .title-qAcLxz, .channels-3g2vYe {
+    Background-color: transparent !important;
+}
+
+.titleWrapper-3Vi_wz {
+    Background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Main background and settings background */
+.app,
+.callout-backdrop {
+    background-size: cover !important;
+}
+
+.container-2OU7Cz, .channels-3g2vYe, .title-qAcLxz,
+.theme-dark .chat form, .headerBar-cxbhPD
+{
+    background-color: transparent;
+}
+
+/* Channel List, Server Name */
+.channels-3g2vYe, .title-qAcLxz {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Channel Name Bar */
+.theme-dark .title-qAcLxz {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Friends Header */
+.headerBar-cxbhPD {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
